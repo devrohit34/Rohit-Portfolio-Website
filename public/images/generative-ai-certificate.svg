@@ -1,0 +1,44 @@
+<svg width="1200" height="856" viewBox="0 0 1200 856" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="856" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A" />
+      <stop offset="1" stop-color="#0F172A" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.35" />
+      <stop offset="0.65" stop-color="#A855F7" stop-opacity="0.25" />
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A" stop-opacity="0.85" />
+      <stop offset="1" stop-color="#0F172A" stop-opacity="0.65" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="856" rx="48" fill="url(#bg)" />
+  <path d="M1200 128C1200 57.3077 1142.69 0 1072 0H128C57.3077 0 0 57.3077 0 128V728C0 798.692 57.3077 856 128 856H1072C1142.69 856 1200 798.692 1200 728V128Z" fill="url(#panel)" />
+  <path d="M128 128H1072V192H128V128Z" fill="#0E1726" />
+  <path d="M1200 176L0 176V200L1200 200V176Z" fill="url(#glow)" />
+  <rect x="156" y="240" width="888" height="66" rx="18" fill="#0F172A" opacity="0.9" />
+  <rect x="156" y="336" width="888" height="20" rx="10" fill="#0F172A" opacity="0.9" />
+  <rect x="156" y="382" width="748" height="20" rx="10" fill="#172A45" />
+  <rect x="156" y="424" width="628" height="18" rx="9" fill="#172A45" />
+  <rect x="156" y="466" width="788" height="18" rx="9" fill="#172A45" />
+  <rect x="156" y="508" width="362" height="18" rx="9" fill="#172A45" />
+  <rect x="156" y="566" width="888" height="24" rx="12" fill="#0F172A" opacity="0.9" />
+  <g opacity="0.9">
+    <rect x="186" y="112" width="196" height="126" rx="28" fill="#1E293B" />
+    <path d="M232 194C232 206.807 241.193 217 254 217H404C416.807 217 426 206.807 426 194V156C426 143.193 416.807 133 404 133H254C241.193 133 232 143.193 232 156V194Z" fill="#0F172A" />
+    <path d="M254 164H404" stroke="#22D3EE" stroke-width="10" stroke-linecap="round" />
+    <path d="M254 188H404" stroke="#A855F7" stroke-width="10" stroke-linecap="round" />
+  </g>
+  <text x="170" y="130" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="32" font-weight="700">Generative AI for All</text>
+  <text x="170" y="170" fill="#94A3B8" font-family="Inter, sans-serif" font-size="18">Physics Wallah × Microsoft</text>
+  <path d="M946 142C946 149.732 940.732 155 933 155H922C914.268 155 909 149.732 909 142V131C909 123.268 914.268 118 922 118H933C940.732 118 946 123.268 946 131V142Z" fill="#38BDF8" />
+  <path d="M914 104H952" stroke="#38BDF8" stroke-width="8" stroke-linecap="round" />
+  <path d="M914 126H952" stroke="#A855F7" stroke-width="8" stroke-linecap="round" />
+  <path d="M914 148H952" stroke="#22D3EE" stroke-width="8" stroke-linecap="round" />
+  <rect x="294" y="626" width="220" height="34" rx="16" fill="#0F172A" />
+  <text x="304" y="650" fill="#60A5FA" font-family="Inter, sans-serif" font-size="18" font-weight="600">Verified course</text>
+  <circle cx="914" cy="660" r="32" fill="#0F172A" opacity="0.6" />
+  <path d="M898 660L908 670L930 648" stroke="#22D3EE" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

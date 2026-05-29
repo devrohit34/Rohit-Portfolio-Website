@@ -1,0 +1,51 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#041021" />
+      <stop offset="100%" stop-color="#07182f" />
+    </linearGradient>
+    <linearGradient id="highlight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#28c7ff" />
+      <stop offset="100%" stop-color="#8c4dff" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="40" fill="url(#bg)" />
+  <rect x="40" y="40" width="1120" height="120" rx="24" fill="#0f2340" />
+  <text x="80" y="95" fill="#ffffff" font-family="Inter, sans-serif" font-size="42" font-weight="700">ClimateAI</text>
+  <text x="80" y="135" fill="#8fb4d7" font-family="Inter, sans-serif" font-size="18">Regional Impact Prediction Dashboard</text>
+  <rect x="40" y="180" width="360" height="140" rx="20" fill="#0c1a31" />
+  <rect x="420" y="180" width="360" height="140" rx="20" fill="#0c1a31" />
+  <rect x="800" y="180" width="360" height="140" rx="20" fill="#0c1a31" />
+  <text x="75" y="230" fill="#5be2ff" font-family="Inter, sans-serif" font-size="22" font-weight="700">+1.62°C</text>
+  <text x="75" y="260" fill="#9bb5d4" font-family="Inter, sans-serif" font-size="16">Avg. Temperature Rise</text>
+  <text x="455" y="230" fill="#5be2ff" font-family="Inter, sans-serif" font-size="22" font-weight="700">-12.45%</text>
+  <text x="455" y="260" fill="#9bb5d4" font-family="Inter, sans-serif" font-size="16">Rainfall Change</text>
+  <text x="835" y="230" fill="#5be2ff" font-family="Inter, sans-serif" font-size="22" font-weight="700">72 / 100</text>
+  <text x="835" y="260" fill="#9bb5d4" font-family="Inter, sans-serif" font-size="16">Impact Score</text>
+  <rect x="40" y="340" width="760" height="285" rx="32" fill="#061324" />
+  <rect x="60" y="360" width="720" height="245" rx="24" fill="#0d2036" />
+  <rect x="80" y="390" width="250" height="28" rx="14" fill="#133455" />
+  <rect x="80" y="430" width="480" height="180" rx="18" fill="#102741" />
+  <path d="M90 560 C150 520 220 530 270 500 C320 470 380 520 430 510 C490 500 550 540 610 520 C670 500 720 520 760 490" stroke="#28c7ff" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="90" cy="560" r="8" fill="#8c4dff" />
+  <circle cx="270" cy="500" r="8" fill="#8c4dff" />
+  <circle cx="430" cy="510" r="8" fill="#8c4dff" />
+  <circle cx="760" cy="490" r="8" fill="#8c4dff" />
+  <rect x="820" y="340" width="320" height="285" rx="32" fill="#061324" />
+  <rect x="840" y="360" width="280" height="245" rx="24" fill="#0d2036" />
+  <text x="860" y="400" fill="#ffffff" font-family="Inter, sans-serif" font-size="18" font-weight="600">Regional Heatmap</text>
+  <path d="M860 430 Q940 390 1020 430 Q1085 460 960 560 Q910 520 860 560 Z" fill="url(#highlight)" opacity="0.25" />
+  <rect x="860" y="520" width="120" height="20" rx="10" fill="#133455" />
+  <rect x="1005" y="520" width="80" height="20" rx="10" fill="#133455" />
+  <rect x="860" y="555" width="100" height="10" rx="5" fill="#1b3356" />
+  <rect x="985" y="555" width="60" height="10" rx="5" fill="#1b3356" />
+  <rect x="60" y="390" width="40" height="40" rx="10" fill="#1b3356" />
+  <rect x="60" y="450" width="40" height="40" rx="10" fill="#1b3356" />
+  <rect x="60" y="510" width="40" height="40" rx="10" fill="#1b3356" />
+  <text x="110" y="420" fill="#bbd6ff" font-family="Inter, sans-serif" font-size="14">Model: XGBoost</text>
+  <text x="110" y="455" fill="#bbd6ff" font-family="Inter, sans-serif" font-size="14">Accuracy: 91.3%</text>
+  <text x="110" y="490" fill="#bbd6ff" font-family="Inter, sans-serif" font-size="14">SHAP Importance</text>
+  <rect x="110" y="510" width="520" height="16" rx="8" fill="#133455" />
+  <rect x="110" y="530" width="420" height="16" rx="8" fill="#1d3f72" />
+  <rect x="110" y="550" width="340" height="16" rx="8" fill="#245fbb" />
+</svg>
