@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
@@ -38,7 +37,7 @@ export function AboutSection() {
           <div className="h-px bg-border flex-1 max-w-xs" />
         </div>
 
-        <div className="grid gap-10 lg:grid-cols-[1.35fr_0.85fr] items-center">
+        <div className="grid gap-10">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -68,25 +67,6 @@ export function AboutSection() {
                   <p className="mt-2 text-sm uppercase tracking-[0.25em] text-cyan-300/80">{stat.label}</p>
                 </motion.div>
               ))}
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, scale: 0.92 }}
-            animate={isInView ? { opacity: 1, scale: 1 } : {}}
-            transition={{ duration: 0.7 }}
-            className="rounded-[2rem] border border-white/10 bg-white/5 p-1 shadow-2xl shadow-cyan-500/10 backdrop-blur-xl"
-          >
-            <div className="relative overflow-hidden rounded-[1.75rem] bg-slate-950/95">
-              <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/10 via-violet-500/10 to-indigo-400/10" />
-              <Image
-                src="/images/rohit-kumar.jpg"
-                alt="Rohit Kumar"
-                width={520}
-                height={520}
-                className="relative h-full w-full object-cover"
-                priority
-              />
             </div>
           </motion.div>
         </div>
